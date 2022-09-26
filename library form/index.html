@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="row g-3 p-5">
+            <div class="col-md-3">
+                <label for="inputFname" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="inputFname">
+            </div>
+            <div class="col-md-3">
+                <label for="inputLname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="inputLname">
+            </div>
+            <div class="col-md-4">
+                <label for="inputCreator" class="form-label">Creator Type</label>
+                <select id="inputCreator" class="form-select">
+                    <option selected>Select...</option>
+                    <option>Annotator</option>
+                    <option>Architect</option>
+                    <option>Artist</option>
+                    <option>Author</option>
+                    <option>Cartographer</option>
+                    <option>Commentator</option>
+                    <option>Compiler</option>
+                    <option>Composer </option>
+                    <option>Director of motion pictures</option>
+                    <option>Distributor</option>
+                    <option>Draughtsman</option>
+                    <option>Editor</option>
+                    <option>Graphic designer</option>
+                    <option>Inventor</option>
+                    <option>Librettist</option>
+                    <option>Lyricist</option>
+                    <option>Mapping agency</option>
+                    <option>Patent applicant</option>
+                    <option>Patentee</option>
+                    <option>Photographer</option>
+                    <option>Reviewer</option>
+                    <option>Reviser</option>
+                    <option>Songwriter</option>
+                    <option>Surveyor</option>
+                    <option>System designer of software</option>
+                    <option>Translator</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputYear" class="form-label">Year</label>
+                <input type="number" class="form-control" id="inputYear">
+            </div>
+            <div class="col-md-12">
+                <label for="inputDegination" class="form-label">Medium Degination</label>
+                <select id="inputDegination" class="form-select">
+                    <option selected>Select...</option>
+                    <option>Online</option>
+                    <option>Database Online</option>
+                    <option>Serial Online</option>
+                    <option>Program</option>
+                    <option>Software</option>
+                    <option>Disc</option>
+                    <option>Electronic mail</option>
+                    <option>Digital image</option>
+                    <option>Podcast</option>
+                    <option>Audio file</option>
+                    <option>Braille</option>
+                    <option>Film</option>
+                    <option>Cine Film (35 mm)</option>
+                    <option>Computer tape reel</option>
+                    <option>CD</option>
+                    <option>DVD</option>
+                    <option>Blue-ray disc</option>
+                    <option>Film strip 35 mm</option>
+                    <option>Globe</option>
+                    <option>Map</option>
+                    <option>Microfiche (48X)</option>
+                    <option>Microfilm reel (16mm negative)</option>
+                    <option>Photograph</option>
+                    <option>Score</option>
+                    <option>Slide (2in.)</option>
+                    <option>Sound disc (45 rpm)</option>
+                    <option>Video cassette (VHS PAL)</option>
+                    <option>Wall chart</option>
+                    <option>Message board</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inputMap" class="form-label">Map series designation</label>
+                <input type="text" class="form-control" id="inputMap">
+            </div>
+            <div class="col-md-4">
+                <label for="inputScale" class="form-label">Scale (of maps, plans)</label>
+                <input type="text" class="form-control" id="inputScale">
+            </div>
+            <div class="col-md-4">
+                <label for="inputTitle" class="form-label">Subsidiary Titles</label>
+                <input type="text" class="form-control" id="inputTitle">
+            </div>
+            <div class="col-md-4">
+                <label for="inputEdition" class="form-label">Edition</label>
+                <select id="inputEdition" class="form-select">
+                    <option selected>Select...</option>
+                    <option>Edition</option>
+                    <option>Version</option>
+                    <option>Level</option>
+                    <option>Update</option>
+                    <option>Revised edition</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inputCreator" class="form-label">Subsidiary Creator</label>
+                <input type="text" class="form-control" id="inputCreator">
+            </div>
+            <div class="col-md-4">
+                <label for="inputPlace" class="form-label">Place</label>
+                <input type="text" class="form-control" id="inputPlace">
+            </div>
+            <div class="col-md-12">
+                <label for="inputPublisher" class="form-label">Publisher</label>
+                <select id="inputPublisher" class="form-select">
+                    <option selected>Select...</option>
+                    <option>Publisher</option>
+                    <option>Production company</option>
+                    <option>Distributor</option>
+                    <option>Issuing body</option>
+                    <option>Printer</option>
+                    <option>Manufacturer</option>
+                    <option>Sponsoring body</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inputPublication" class="form-label">Date of Publication</label>
+                <input type="date" class="form-control" id="inputPublication">
+            </div>
+            <div class="col-md-4">
+                <label for="inputUpdate" class="form-label">Date of update/revision</label>
+                <input type="date" class="form-control" id="inputUpdate">
+            </div>
+            <div class="col-md-4">
+                <label for="inputCitation" class="form-label">Date of citation</label>
+                <input type="date" class="form-control" id="inputCitation">
+            </div>
+            <div class="col-md-4">
+                <label for="inputSeries" class="form-label">Series title and number</label>
+                <input type="" class="form-control" id="inputSeries">
+            </div>
+            <div class="col-md-12">
+                <label for="inputState" class="form-label">Standard Identifier</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Select...</option>
+                    <option>ISBN</option>
+                    <option>ISSN</option>
+                    <option>eISSN</option>
+                    <option>eISBN</option>
+                    <option>ISAN</option>
+                    <option>ISMN</option>
+                    <option>ISRC</option>
+                    <option>DOI</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label for="inputState" class="form-label">Availability and access</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Select...</option>
+                    <option>DOI</option>
+                    <option>URI</option>
+                    <option>URL</option>
+                    <option>Address of Host Computer</option>
+                    <option>Directory Name</option>
+                    <option>File name</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inputLocation" class="form-label">Location</label>
+                <input type="text" class="form-control" id="inputLocation">
+            </div>
+           
+
+            <div class="col-12 text-center mt-5">
+                <button type="submit" class="btn btn-primary px-5 py-2" style="font-size: 20px; font-weight:500;">Create
+                    Format</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
